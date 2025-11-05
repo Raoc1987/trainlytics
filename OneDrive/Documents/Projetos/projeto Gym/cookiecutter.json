@@ -1,0 +1,9 @@
+{
+  "project_slug": "workout-insights-planner",
+  "package_name": "workout_insights",
+  "author_name": "Seu Nome",
+  "email": "seu@email.com",
+  "python_version": "3.10",
+  "description": "Pacote para análise e recomendação de treinos físicos.",
+  "open_source_license": "MIT"
+}

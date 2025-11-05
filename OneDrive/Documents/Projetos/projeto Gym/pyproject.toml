@@ -1,0 +1,23 @@
+name = "trainlytics"
+version = "0.1.0"
+description = "Open-source Python package for workout analysis and recommendations."
+authors = ["Your Name <your@email.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "trainlytics"}]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[project]
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+    "matplotlib",
+    "plotly",
+    "pytest",
+    "flake8",
+    "black",
+    "streamlit",
+]
