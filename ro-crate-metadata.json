@@ -1,0 +1,13 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.1/context",
+  "@type": "Dataset",
+  "name": "trainlytics",
+  "description": "Open-source Python package for workout analysis and recommendations.",
+  "license": "MIT",
+  "author": [{
+    "@type": "Person",
+    "name": "Your Name"
+  }],
+  "url": "https://github.com/youruser/trainlytics",
+  "keywords": ["data science", "fitness", "reproducibility", "FAIR"]
+}
