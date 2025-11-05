@@ -1,0 +1,15 @@
+# Example metadata for FAIR and citation
+name: trainlytics
+version: 0.1.0
+description: Open-source Python package for workout analysis and recommendations.
+authors:
+  - name: Your Name
+    affiliation: Your Institution
+license: MIT
+repository: https://github.com/youruser/trainlytics
+doi: 10.5281/zenodo.XXXXXXX
+keywords:
+  - data science
+  - fitness
+  - reproducibility
+  - FAIR

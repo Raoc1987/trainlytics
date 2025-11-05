@@ -1,0 +1,39 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Testes com PYTHONPATH",
+			"type": "shell",
+			"command": "$env:PYTHONPATH=\"$(Resolve-Path .\\src)\"; pytest tests",
+			"problemMatcher": [
+				"$pytest"
+			],
+			"group": "test"
+		}
+	]
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Testes com PYTHONPATH",
+			"type": "shell",
+			"command": "$env:PYTHONPATH=\"$(Resolve-Path .\\src)\"; pytest tests",
+			"group": "test",
+			"problemMatcher": []
+		},
+		{
+			"label": "Lint",
+			"type": "shell",
+			"command": "flake8 src/ tests/",
+			"group": "build",
+			"problemMatcher": []
+		},
+		{
+			"label": "Formatar código",
+			"type": "shell",
+			"command": "black src/ tests/",
+			"group": "build",
+			"problemMatcher": []
+		}
+	]
+}
